@@ -150,39 +150,6 @@ To use a different free model, type `/model` inside Claude Code and select from 
 | `minimax/minimax-m2.5:free` | General tasks |
 
 ---
-
-## Troubleshooting
-
-### ❌ `claude` command not found
-Re-run the installation command:
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-```
-Then reload your terminal:
-```bash
-source ~/.bashrc
-```
-
-### ❌ 401 Unauthorized Error
-Your API key is wrong. Update your `settings.json`:
-```bash
-nano ~/.claude/settings.json
-```
-Replace the `ANTHROPIC_AUTH_TOKEN` value with your correct key, save with **Ctrl+O**, exit with **Ctrl+X**.
-
-### ❌ 429 Rate Limit Error
-Free models have usage limits. Fix options:
-- Wait a few minutes and try again
-- Switch to a different free model using `/model` inside Claude Code
-
-### ❌ Model not responding
-Make sure your `settings.json` has the correct format and the `ANTHROPIC_API_KEY` is set to empty `""`.
-
-### 🔄 How to Update Claude Code
-```bash
-claude update
-```
-
 ---
 
 ## Quick Reference
