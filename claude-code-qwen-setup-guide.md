@@ -223,12 +223,6 @@ If not running, start it:
 ccr restart
 ```
 
-### 🔄 How to Update CCR to Latest Version
-```bash
-npm install -g @musistudio/claude-code-router@latest
-ccr restart
-```
-
 ---
 
 ## Quick Reference
