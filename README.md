@@ -227,5 +227,3 @@ Yes! Qwen offers free API access via their CLI tool. This setup routes Claude Co
 It's Qwen's latest coding-focused model — optimized for programming tasks, which makes it a great match for Claude Code.
 
 ---
-
-> Don't forget to subscribe to the YouTube Channel **Subhan Kaladi** for more tutorials like this! 🎬
