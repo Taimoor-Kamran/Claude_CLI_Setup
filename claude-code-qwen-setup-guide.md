@@ -192,36 +192,6 @@ hi
 
 ---
 
-## Troubleshooting
-
-### ❌ `node` command not found
-You need to install Node.js. Go back to [Step 1](#step-1-install-nodejs).
-
-### ❌ `ccr` or `claude` command not found
-Run the install command again:
-```bash
-npm install -g @anthropic-ai/claude-code @musistudio/claude-code-router@latest
-```
-
-### ❌ 401 Unauthorized Error
-Your API key is wrong or expired. Get a new key from Alibaba Cloud and update the config:
-```bash
-nano ~/.claude-code-router/config.json
-```
-Replace the `api_key` value with your new key, save with **Ctrl+O**, exit with **Ctrl+X**, then restart:
-```bash
-ccr restart
-```
-
-### ❌ Connection Error / No Response
-Make sure the router is running:
-```bash
-ccr status
-```
-If not running, start it:
-```bash
-ccr restart
-```
 
 ---
 
@@ -248,5 +218,3 @@ ccr restart
 | Claude Code Router | v2.0+ |
 
 ---
-
-*Guide created for students. Last updated: May 2026.*
