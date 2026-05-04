@@ -56,11 +56,7 @@ You should see a version number printed. If you do, you're good to go!
 
 ## 🚀 Step 1: Install Claude Code Router
 
-**What is this?** We need two packages:
-- `@anthropic-ai/claude-code` — the Claude Code CLI tool itself
-- `@musistudio/claude-code-router` (`ccr`) — a router that redirects Claude's requests to Qwen instead of Anthropic's servers
-
-Run this single command to install both:
+Install Claude Code and the router globally:
 
 ```bash
 npm install -g @anthropic-ai/claude-code @musistudio/claude-code-router
